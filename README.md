@@ -50,6 +50,7 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
+- [Mantra](https://mantra.gonewx.com) - Time machine for AI coding sessions. Automatically captures, browses, searches, and restores Windsurf sessions. Desktop app with CLI support for macOS, Linux, and Windows.
 
 ## Community Prompts
 
