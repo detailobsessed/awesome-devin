@@ -95,3 +95,7 @@ We welcome all contributions! Please check out our [Contributing Guide](CONTRIBU
 ## License
 
 This list is dedicated to the public domain under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.
+
+## API Services
+
+- [SkillBoss](https://skillboss.co) - **Backed by OpenAI Startup Fund & Amazon**. One API key for 100+ AI services. Access GPT-5, Claude Opus 4.5, Gemini, video generation, image generation, voice synthesis, and more through a single OpenAI-compatible endpoint. Native integration with Windsurf, Claude Code, Cursor, and Gemini CLI.
