@@ -48,7 +48,7 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 ## Community Resources
 
-- [LynxPrompt](https://github.com/GeiserX/LynxPrompt)
+- [LynxPrompt by GeiserX](https://github.com/GeiserX/LynxPrompt)
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
 
