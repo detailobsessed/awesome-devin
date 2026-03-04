@@ -48,7 +48,7 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 ## Community Resources
 
-- [LynxPrompt](https://github.com/GeiserX/LynxPrompt) - Self-hostable platform for managing AI IDE configuration files. Generates, syncs, and shares Windsurf configs (and 30+ other AI coding assistant formats) via web UI, REST API, CLI, and federated blueprint marketplace. ([Website](https://lynxprompt.com))
+- [LynxPrompt](https://github.com/GeiserX/LynxPrompt)
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
 
