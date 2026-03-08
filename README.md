@@ -50,6 +50,7 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
+- [agentskill.sh](https://agentskill.sh) - Browse and install 69,000+ AI agent skills for Windsurf and 20+ other AI tools
 
 ## Community Prompts
 
