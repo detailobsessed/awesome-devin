@@ -30,7 +30,10 @@ Add to Windsurf MCP config:
   "mcpServers": {
     "strale": {
       "command": "npx",
-      "args": ["-y", "strale-mcp"]
+      "args": ["-y", "strale-mcp"],
+      "env": {
+        "STRALE_API_KEY": "your-key-here"
+      }
     }
   }
 }
