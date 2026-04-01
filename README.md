@@ -64,6 +64,10 @@ To explore and discover community contributions:
 
 Want to contribute? Create a directory with your username and add your prompts! See the [Contributing](#contributing) section for more details.
 
+### Notable Prompts
+
+- [OSOP Session Logging](memories/Archie0125/) — Record AI coding sessions as structured `.osop` + `.osoplog.yaml` workflow logs using the [OSOP protocol](https://github.com/Archie0125/osop-spec). Produces portable, auditable execution records that can be visualized at [osop-editor.vercel.app](https://osop-editor.vercel.app).
+
 ## Tips and Tricks
 
 1. When working on a Markdown file, use ⌘/CTRL + K, then I to open formatted Markdown to the side.
