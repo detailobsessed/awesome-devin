@@ -43,10 +43,5 @@ Then get a free API key at https://strale.dev/signup (includes trial credits).
 
 ## Real-world examples
 
-- "Verify this Swedish company registration number" →
-  `strale_execute(slug: "swedish-company-data", inputs: { org_number: "556703-7485" })`
-- "Is this company on a sanctions list?" →
-  `strale_execute(slug: "sanctions-check", inputs: { name: "Acme Corp" })`
-- "Validate this IBAN" →
-  `strale_execute(slug: "iban-validate", inputs: { iban: "SE35..." })`
-  (free, no API key required)
+See the [rule file](Global-AI-rules/strale-agent-capabilities/strale-agent-capabilities.md)
+for usage examples with `strale_search` and `strale_execute`.
