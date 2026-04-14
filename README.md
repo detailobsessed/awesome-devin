@@ -18,6 +18,7 @@ A curated hub of resources, tips, and community-driven content for Windsurf - a 
 - [Useful Links](#useful-links)
 - [FAQ](#faq)
 - [Community Resources](#community-resources)
+- [MCP Servers](#mcp-servers)
 - [Community Prompts](#community-prompts)
 - [Tips and Tricks](#tips-and-tricks)
 - [Videos](#videos)
@@ -50,6 +51,16 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
+
+## MCP Servers
+
+- [Helium MCP](https://github.com/connerlambden/helium-mcp) — Works natively with Windsurf via one config paste:
+
+  ```json
+  {"mcpServers": {"helium": {"serverUrl": "https://heliumtrades.com/mcp"}}}
+  ```
+
+  Provides 10 tools: news search, balanced news, source/article bias, ticker data, options pricing, historical options, top strategies, meme search.
 
 ## Community Prompts
 
