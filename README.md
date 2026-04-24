@@ -50,6 +50,8 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
+- [Emdash Skills by megabytespace](https://github.com/megabytespace/claude-skills) - 14-category autonomous product-building OS with 18 agents and .windsurfrules compatibility
+
 
 ## Community Prompts
 
