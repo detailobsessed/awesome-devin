@@ -1,3 +1,7 @@
 # Git files
 .github/CODEOWNERS
 .prettierignore
+
+# Windsurf rules files have no parser
+.windsurfrules
+**/.windsurfrules
