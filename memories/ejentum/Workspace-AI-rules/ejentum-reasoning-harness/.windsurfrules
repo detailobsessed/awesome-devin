@@ -1,4 +1,4 @@
-# Ejentum Reasoning Harness — Windsurf rules
+# Ejentum Reasoning Harness - Windsurf rules
 
 This rules file teaches Windsurf's Cascade agent when to call the four cognitive
 harness tools exposed by the `ejentum-mcp` MCP server. Use it when you have
