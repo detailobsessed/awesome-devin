@@ -1,24 +1,11 @@
-# Ejentum MCP Rules for Windsurf
+# Cascade Workspace Rules by Ejentum
 
-Workspace rules that route Windsurf's Cascade agent to the four tools exposed by the [`ejentum-mcp`](https://github.com/ejentum/ejentum-mcp) MCP server:
-
-- `harness_reasoning` for analytical, diagnostic, planning, multi-step tasks
-- `harness_code` for code generation, refactoring, review, debugging
-- `harness_anti_deception` for honesty-pressured prompts (sycophancy, authority appeals, urgency-as-bypass)
-- `harness_memory` for sharpening an observation already formed about cross-turn drift
-
-The rules document trigger conditions, do-not-call cases, output discipline, and anti-patterns.
+Standalone Windsurf rules contributed by [Ejentum](https://github.com/ejentum). Each rule file is self-contained and works without any external service or MCP server.
 
 ## Folder layout
 
-- `Workspace-AI-rules/ejentum-reasoning-harness/.windsurfrules` — drop into any project root. Cascade reads it as workspace rules.
+- `Workspace-AI-rules/cascade-multi-step-honesty/.windsurfrules` — 20 directives for honest status reporting, sycophancy resistance, anti-hallucination, and cross-step coherence in long Cascade workflows. Drop at your project root or paste into Workspace AI Rules.
 
-## Setup
+## How to use
 
-1. Install the MCP server in Windsurf (Settings → Cascade → MCP Servers): command `npx`, args `["-y", "ejentum-mcp"]`, env `{ "EJENTUM_API_KEY": "<your_key>" }`.
-2. Drop the `.windsurfrules` file at your project root, or paste its contents into `global_rules.md` for Windsurf-wide application.
-
-## Source
-
-- MCP server: <https://github.com/ejentum/ejentum-mcp> (MIT)
-- Editor adapters (Cursor, Windsurf, Cline): <https://github.com/ejentum/ejentum-mcp/tree/main/editors>
+Each rule directory contains a `.windsurfrules` file and a README explaining what the rule covers. Drop the `.windsurfrules` at your project root or paste its contents into Windsurf Settings → Cascade → Workspace AI Rules.
