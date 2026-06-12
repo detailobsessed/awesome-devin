@@ -50,6 +50,7 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
+- [proof-of-commitment supply chain hook](https://github.com/piiiico/proof-of-commitment#ide-hooks-cursor--claude-code--windsurf) - Supply chain security gate for Windsurf. `poc hook --windsurf` intercepts `npm install`, `pip install`, `cargo add` and `go get` — blocks CRITICAL packages before they execute.
 
 ## Community Prompts
 
