@@ -17,7 +17,14 @@
     "RAII",
     "mcpservers",
     "kinopeee",
-    "kamusis"
+    "kamusis",
+    "OptionsAhoy",
+    "AlvisoOculus",
+    "keyless",
+    "QSBS",
+    "AMT",
+    "NSO",
+    "RSU"
   ],
   "ignorePaths": ["node_modules/**", "package.json", "package-lock.json"],
   "allowCompoundWords": true,

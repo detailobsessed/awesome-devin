@@ -50,6 +50,7 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
+- [OptionsAhoy MCP](https://github.com/AlvisoOculus/optionsahoy-mcp) - Free, keyless MCP server and REST API for US equity-compensation tax planning (ISO/AMT exercise timing, NSO, RSU, QSBS, single-stock concentration, protective puts) across federal tax and all 50 states. Ships a drop-in Windsurf config kit.
 
 ## Community Prompts
 
