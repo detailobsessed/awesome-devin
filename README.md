@@ -50,6 +50,7 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
+- [AI Web Design Codex by Eneryleen](https://github.com/Eneryleen/ai-web-design-codex)
 
 ## Community Prompts
 
