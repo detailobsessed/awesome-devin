@@ -20,26 +20,32 @@ BGPT lets Devin search academic papers and extract structured data from them —
 experimental results, methods, figures. Useful when you're doing research-heavy
 work and want Devin to pull facts from papers rather than guessing.
 
+Endpoints: SSE at `https://bgpt.pro/mcp/sse`, plus a Streamable HTTP endpoint.
+
 ## Installation
 
-No local install needed. Add the remote server URL to your Devin MCP config.
+### Devin Desktop
 
-### Desktop
-
-In Devin Desktop, go to Settings → MCP Servers and add:
+Add to `~/.codeium/windsurf/mcp_config.json` (remote servers use `serverUrl`):
 
 ```json
 {
-  "bgpt": {
-    "url": "https://bgpt.pro/mcp/sse",
-    "transport": "sse"
+  "mcpServers": {
+    "bgpt": {
+      "serverUrl": "https://bgpt.pro/mcp/sse"
+    }
   }
 }
 ```
 
-### CLI
+### Devin CLI
 
-Add to `~/.config/devin/mcp.json`:
+```bash
+devin mcp add bgpt https://bgpt.pro/mcp/sse
+```
+
+Or add to the `mcpServers` section of `~/.config/devin/config.json` (user scope)
+or `.devin/config.json` (project scope):
 
 ```json
 {
@@ -52,17 +58,21 @@ Add to `~/.config/devin/mcp.json`:
 }
 ```
 
-Both SSE (`https://bgpt.pro/mcp/sse`) and Streamable HTTP endpoints are
-available.
+### Devin Cloud
+
+An org admin can add it as a custom MCP (SSE transport, server URL above) — see
+the official [MCP Marketplace docs](https://docs.devin.ai/work-with-devin/mcp).
 
 ## Limitations
 
 - Remote-only — no self-hosted option yet.
 - Coverage depends on what BGPT has indexed; not every paper is available.
 - Rate limits may apply for the hosted instance.
+- SSE is a legacy MCP transport; check the repo for the current Streamable HTTP
+  endpoint if SSE is ever deprecated.
 
 ## Maturity
 
 - 35+ GitHub stars
-- 21 commits, actively maintained
+- Actively maintained
 - Hosted instance available for immediate use

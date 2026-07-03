@@ -21,6 +21,24 @@ is stable.
 If you have something you'd like to contribute, you're welcome to open an issue
 to discuss it. We'll start accepting PRs once the foundation is solid.
 
+## The prime directive: link, don't duplicate
+
+[docs.devin.ai](https://docs.devin.ai) is the canonical reference for how Devin
+works. **We never restate what the official docs already say** — we link to
+them. This applies to our own pages as much as to contributions.
+
+Why this matters:
+
+- Duplicated docs rot. Cognition updates their docs; our copies silently go stale.
+- We don't want responsibility for claims we can't back. Official behavior is
+  their claim to make, not ours.
+- It keeps this site focused on its only real value: **what the docs don't
+  cover** — community-observed behavior, real configs for specific third-party
+  tools, honest tradeoffs, and answers born from actual use.
+
+The test for any sentence on this site: *is this our knowledge, or Cognition's?*
+If it's theirs, it should be a link.
+
 ## Quality standards
 
 When the site does open to contributions, here's what the bar will be. We're

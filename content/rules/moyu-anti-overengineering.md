@@ -53,25 +53,22 @@ skill, not laziness.
 
 ## How to install
 
-Copy the rules text above into your Devin rules configuration:
-
-```bash
-# Desktop (global rules — applies to all workspaces)
-cat > ~/.config/devin/rules/moyu.md << 'RULES'
-# Paste the rules text here
-RULES
-
-# Desktop (workspace rules — applies to current project only)
-cat > .devin/rules/moyu.md << 'RULES'
-# Paste the rules text here
-RULES
-```
-
-For the CLI, use the `--rules` flag or place the file in
-`~/.config/devin/rules/`.
+Copy the rules text above into wherever rules live on your surface — e.g.
+`.devin/rules/moyu.md` for a Devin Desktop workspace, or your `AGENTS.md` for
+Devin CLI. For the full picture of rule locations and activation modes, see the
+official docs: [Desktop](https://docs.devin.ai/desktop/cascade/memories) ·
+[CLI](https://docs.devin.ai/cli/extensibility/rules) ·
+[Cloud (Knowledge)](https://docs.devin.ai/product-guides/knowledge).
 
 ## Why this exists
 
 AI coding assistants tend to over-engineer: fixing one bug but "improving" three
 others, adding unrequested abstractions, writing comments nobody asked for. Moyu
 stops this by enforcing minimal, focused changes.
+
+## Limitations
+
+- These rules trade thoroughness for restraint. If you *want* the agent to
+  proactively add tests, error handling, or documentation, don't use them as-is.
+- "No tests unless asked" conflicts with test-first workflows — drop that line
+  if your team practices TDD.

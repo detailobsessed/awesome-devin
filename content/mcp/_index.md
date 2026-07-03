@@ -1,27 +1,23 @@
 ---
 title: MCP Servers
-description: A curated directory of MCP (Model Context Protocol) servers for Devin.
+description: A curated directory of MCP servers that work well with Devin.
 weight: 5
 ---
 
 # MCP Servers
 
-The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open
-standard for connecting AI tools to external data sources and services. Devin
-supports MCP across all three surfaces.
+A curated directory of MCP ([Model Context Protocol](https://modelcontextprotocol.io))
+servers that work well with Devin. Not a firehose — each entry has the exact
+config for that server, and an honest description of what it does and doesn't do.
 
-This is a curated directory of MCP servers that work well with Devin. Not a
-firehose — each entry has setup instructions, config snippets, and an honest
-description of what the server does.
+**How to configure MCP per surface is official-docs territory, not ours:**
 
-## How to use these
+- **Desktop**: [MCP in Cascade](https://docs.devin.ai/desktop/cascade/mcp)
+- **CLI**: [MCP Configuration](https://docs.devin.ai/cli/extensibility/mcp/configuration)
+- **Cloud**: [MCP Marketplace](https://docs.devin.ai/work-with-devin/mcp)
 
-1. Browse the directory below.
-2. Follow the setup instructions for each server.
-3. Configure it in your Devin surface:
-   - **Desktop**: Settings → MCP Servers
-   - **CLI**: `~/.config/devin/mcp.json`
-   - **Cloud**: Session setup → MCP configuration
+What you'll find here is the part the docs *can't* give you: which third-party
+servers are actually worth using, their exact config, and their real limitations.
 
 ## Entries
 
