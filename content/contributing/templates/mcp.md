@@ -4,8 +4,6 @@ description: Template for contributing an MCP server to the directory.
 weight: 5
 ---
 
-# MCP server entry template
-
 Copy this template, fill it in, and place it in `content/mcp/`.
 
 **Maturity bar:** MCP server entries must have community validation — 50+

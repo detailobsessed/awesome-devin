@@ -4,8 +4,6 @@ description: How to contribute to Awesome Devin.
 weight: 7
 ---
 
-# Contributing
-
 Awesome Devin is a community project. Every page here was contributed by someone
 who used Devin, hit a wall, figured something out, and took the time to write it
 up.

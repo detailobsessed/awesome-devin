@@ -4,8 +4,6 @@ description: Template for suggesting a FAQ entry.
 weight: 3
 ---
 
-# FAQ entry template
-
 FAQ entries are curated by the maintainer, sourced from Discord and community
 conversations. If you have a question that belongs here, open an issue with the
 question and (if you can) the answer.

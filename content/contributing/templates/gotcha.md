@@ -4,8 +4,6 @@ description: Template for contributing a gotcha or caveat.
 weight: 2
 ---
 
-# Gotcha page template
-
 Copy this template, fill it in, and place it in the appropriate surface directory
 under `content/gotchas/`.
 

@@ -4,8 +4,6 @@ description: Community-curated rules for Devin — the rules themselves, not a r
 weight: 4
 ---
 
-# Rules & Memories
-
 A curated collection of community-contributed rules you can drop into your own
 setup.
 

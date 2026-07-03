@@ -4,8 +4,6 @@ description: Template for contributing a rules set.
 weight: 4
 ---
 
-# Rules entry template
-
 Copy this template, fill it in, and place it in `content/rules/`. The full rules
 text must be inline — not just a link to your repo.
 

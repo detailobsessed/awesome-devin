@@ -6,8 +6,6 @@ source: https://github.com/connerlambden/bgpt-mcp
 weight: 1
 ---
 
-# BGPT — Scientific paper search
-
 A hosted MCP server for searching scientific papers with full-text experimental
 data extraction. No local install required — it runs as a remote server.
 

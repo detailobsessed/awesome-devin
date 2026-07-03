@@ -4,8 +4,6 @@ description: A curated directory of MCP servers that work well with Devin.
 weight: 5
 ---
 
-# MCP Servers
-
 A curated directory of MCP ([Model Context Protocol](https://modelcontextprotocol.io))
 servers that work well with Devin. Not a firehose — each entry has the exact
 config for that server, and an honest description of what it does and doesn't do.

@@ -6,8 +6,6 @@ source: https://github.com/uucz/moyu
 weight: 1
 ---
 
-# Moyu — Anti-overengineering rules
-
 **Moyu** (摸鱼) is a set of rules that prevents AI coding assistants from
 over-engineering. It teaches restraint: only change what was asked, prefer the
 simplest solution, and ask when unsure.

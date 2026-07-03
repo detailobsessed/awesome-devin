@@ -4,8 +4,6 @@ description: Answers to questions people actually ask about Devin, sourced from 
 weight: 1
 ---
 
-# FAQ
-
 Answers to questions people actually ask about Devin. These are curated from
 Discord, forums, and real conversations — not from the official docs.
 

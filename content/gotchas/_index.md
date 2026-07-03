@@ -1,10 +1,9 @@
 ---
-title: Gotchas
+title: Gotchas & Caveats
+linkTitle: Gotchas
 description: Known gotchas and caveats when using Devin, organized by surface.
 weight: 3
 ---
-
-# Gotchas & Caveats
 
 Where Devin surprises you, and how to avoid getting burned. This isn't about
 trashing Devin — it's about being honest so people know what to watch for.

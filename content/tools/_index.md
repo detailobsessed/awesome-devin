@@ -4,8 +4,6 @@ description: A curated directory of skills, tools, and extensions for Devin.
 weight: 6
 ---
 
-# Skills & Tools
-
 Skills are reusable capabilities Devin can load to extend what it can do. Tools
 are external utilities and integrations that enhance the Devin workflow.
 

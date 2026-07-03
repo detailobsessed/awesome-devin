@@ -4,8 +4,6 @@ description: Template for contributing a skill or tool to the directory.
 weight: 6
 ---
 
-# Tool entry template
-
 Copy this template, fill it in, and place it in `content/tools/`.
 
 **Maturity bar:** Tool entries must have community validation — 50+ GitHub

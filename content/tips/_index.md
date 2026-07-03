@@ -4,8 +4,6 @@ description: Practical tips and workflows for Devin, organized by surface.
 weight: 2
 ---
 
-# Tips & Workflows
-
 Practical patterns for getting better results from Devin — the stuff the official
 docs don't cover.
 

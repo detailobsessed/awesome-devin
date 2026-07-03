@@ -4,8 +4,6 @@ description: Template for contributing a tip or workflow.
 weight: 1
 ---
 
-# Tip page template
-
 Copy this template, fill it in, and place it in the appropriate surface directory
 under `content/tips/`.
 
