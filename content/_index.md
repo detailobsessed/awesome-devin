@@ -9,18 +9,15 @@ A community-driven hub of tips, workflows, and resources for **Devin** — Cogni
 Devin runs across three surfaces, and this site covers them all:
 
 {{< cards cols="3" >}}
-  {{< card link="cloud" title="Cloud" subtitle="Devin in your browser — the hosted, full-power experience." icon="cloud" >}}
-  {{< card link="desktop" title="Desktop" subtitle="Devin Desktop (formerly Windsurf) — the local IDE experience." icon="desktop-computer" >}}
-  {{< card link="cli" title="CLI" subtitle="Devin in your terminal — headless automation and scripting." icon="terminal" >}}
+  {{< card link="tips" title="Tips & Workflows" subtitle="Practical patterns the official docs don't cover." icon="lightning-bolt" >}}
+  {{< card link="gotchas" title="Gotchas" subtitle="Where Devin surprises you, and how to work around it." icon="exclamation-circle" >}}
+  {{< card link="faq" title="FAQ" subtitle="Answers to questions people actually ask, sourced from the community." icon="chat" >}}
 {{< /cards >}}
 
-## What you'll find here
-
-{{< cards cols="2" >}}
+{{< cards cols="3" >}}
   {{< card link="rules" title="Rules & Memories" subtitle="Community-curated rules you can drop into your own setup." icon="pencil" >}}
   {{< card link="mcp" title="MCP Servers" subtitle="A curated directory of MCP servers that work with Devin." icon="puzzle" >}}
   {{< card link="tools" title="Skills & Tools" subtitle="Extensions and tools that enhance the Devin workflow." icon="beaker" >}}
-  {{< card link="contributing" title="Contributing" subtitle="How to add your tips, gotchas, and resources." icon="book-open" >}}
 {{< /cards >}}
 
 ## This is a community project
@@ -28,3 +25,6 @@ Devin runs across three surfaces, and this site covers them all:
 This is **not** an official Cognition repository. For official docs and support, see
 [docs.devin.ai](https://docs.devin.ai). Everything here is contributed by the community
 and released under CC0 1.0 (Public Domain).
+
+This site is currently in its early stages. See [Contributing](contributing) for how
+to get involved.

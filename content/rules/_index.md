@@ -1,6 +1,6 @@
 ---
 title: Rules & Memories
-description: Community-curated rules, prompts, and memory files for Devin.
+description: Community-curated rules and memory files for Devin.
 weight: 4
 ---
 
@@ -10,20 +10,24 @@ Rules (sometimes called "global rules" or "system prompts") are instructions you
 give Devin to shape its behavior across sessions. Memories are persistent context
 Devin carries between sessions.
 
-This section is a curated collection of community-contributed rules and memory
-files you can drop into your own setup.
+This is a curated collection of community-contributed rules you can drop into
+your own setup.
 
 ## How to use these
 
 1. Browse the collection below.
-2. Copy the rules that fit your workflow.
-3. Place them in the appropriate config location for your surface:
+2. Read the full rules and the contributor's explanation of why they wrote them.
+3. Copy the rules that fit your workflow.
+4. Place them in the appropriate config location for your surface:
    - **Desktop**: `.devin/rules/` or the in-app rules editor
    - **CLI**: `~/.config/devin/rules/` or the `--rules` flag
    - **Cloud**: The session setup / instructions field
 
-## How to contribute
+## Entries
 
-See [Contributing](../contributing) for how to submit your own rules.
+{{< cards cols="2" >}}
+  {{< card link="moyu-anti-overengineering" title="Moyu anti-overengineering rules" subtitle="Three iron rules: only change what was asked, simplest solution first, ask when unsure." icon="shield-check" >}}
+{{< /cards >}}
 
-> This page is a stub. Add your rules — see [Contributing](../contributing).
+> This section is being built out. See [Contributing](../contributing) for how to
+> submit your own rules.

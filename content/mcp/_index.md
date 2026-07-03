@@ -10,7 +10,9 @@ The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open
 standard for connecting AI tools to external data sources and services. Devin
 supports MCP across all three surfaces.
 
-This section is a curated directory of MCP servers that work well with Devin.
+This is a curated directory of MCP servers that work well with Devin. Not a
+firehose — each entry has setup instructions, config snippets, and an honest
+description of what the server does.
 
 ## How to use these
 
@@ -21,9 +23,11 @@ This section is a curated directory of MCP servers that work well with Devin.
    - **CLI**: `~/.config/devin/mcp.json`
    - **Cloud**: Session setup → MCP configuration
 
-## How to contribute
+## Entries
 
-See [Contributing](../contributing) for how to submit an MCP server to the
-directory.
+{{< cards cols="2" >}}
+  {{< card link="bgpt-scientific-search" title="BGPT — Scientific paper search" subtitle="Hosted MCP server for searching scientific papers with full-text data extraction." icon="search" >}}
+{{< /cards >}}
 
-> This page is a stub. Add your MCP servers — see [Contributing](../contributing).
+> This section is being built out. See [Contributing](../contributing) for how to
+> submit an MCP server.

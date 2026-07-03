@@ -22,14 +22,14 @@ markup:
 
 menu:
   main:
-    - name: Cloud
-      pageRef: /cloud
+    - name: Tips
+      pageRef: /tips
       weight: 1
-    - name: Desktop
-      pageRef: /desktop
+    - name: Gotchas
+      pageRef: /gotchas
       weight: 2
-    - name: CLI
-      pageRef: /cli
+    - name: FAQ
+      pageRef: /faq
       weight: 3
     - name: Rules
       pageRef: /rules

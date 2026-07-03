@@ -9,11 +9,12 @@ weight: 6
 Skills are reusable capabilities Devin can load to extend what it can do. Tools
 are external utilities and integrations that enhance the Devin workflow.
 
-This section is a curated directory of community-contributed skills and tools.
+This is a curated directory — not a firehose. Each entry has a real description,
+installation steps, and an honest assessment of when you'd use it.
 
-## How to contribute
+## Entries
 
-See [Contributing](../contributing) for how to submit a skill or tool to the
-directory.
+_No entries yet._
 
-> This page is a stub. Add your skills and tools — see [Contributing](../contributing).
+> This section is being built out. See [Contributing](../contributing) for how to
+> submit a tool.
