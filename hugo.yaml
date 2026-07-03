@@ -1,0 +1,82 @@
+# Hugo configuration file
+title: Awesome Devin
+
+# GitHub Pages base path — will be updated when repo is renamed
+baseURL: https://detailobsessed.github.io/awesome-windsurf/
+locale: en-us
+
+# import hextra as module
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Cloud
+      pageRef: /cloud
+      weight: 1
+    - name: Desktop
+      pageRef: /desktop
+      weight: 2
+    - name: CLI
+      pageRef: /cli
+      weight: 3
+    - name: Rules
+      pageRef: /rules
+      weight: 4
+    - name: MCP
+      pageRef: /mcp
+      weight: 5
+    - name: Tools
+      pageRef: /tools
+      weight: 6
+    - name: Contributing
+      pageRef: /contributing
+      weight: 7
+    - name: Search
+      weight: 8
+      params:
+        type: search
+    - name: GitHub
+      weight: 9
+      url: "https://github.com/detailobsessed/awesome-windsurf"
+      params:
+        icon: github
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: true
+    base: "https://github.com/detailobsessed/awesome-windsurf/edit/main/content"
+
+  # Hextra theme params
+  theme:
+    backToTop:
+      display: true
+
+    search:
+      enable: true
+      type: flexsearch
+      flexsearch:
+        index: content
+
+    blog:
+      list:
+        displayTags: true

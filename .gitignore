@@ -1,4 +1,11 @@
+# Hugo output
+public/
+resources/
+.hugo_build.lock
+
+# Editor
+.vscode/
 .DS_Store
-.vscodenode_modules/
-node_modules/
-.vscode
+
+# Go
+vendor/
