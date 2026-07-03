@@ -1,7 +1,7 @@
 ---
 title: Gotchas
 description: Known gotchas and caveats when using Devin, organized by surface.
-weight: 2
+weight: 3
 ---
 
 # Gotchas & Caveats

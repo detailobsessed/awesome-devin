@@ -1,7 +1,7 @@
 ---
 title: Tips & Workflows
 description: Practical tips and workflows for Devin, organized by surface.
-weight: 1
+weight: 2
 ---
 
 # Tips & Workflows

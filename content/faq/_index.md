@@ -1,7 +1,7 @@
 ---
 title: FAQ
 description: Answers to questions people actually ask about Devin, sourced from the community.
-weight: 3
+weight: 1
 ---
 
 # FAQ
