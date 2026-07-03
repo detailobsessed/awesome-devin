@@ -9,3 +9,6 @@ resources/
 
 # Go
 vendor/
+
+# Zensical build output (if experimenting with Zensical)
+site/

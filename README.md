@@ -13,7 +13,7 @@ This is not an official Cognition repository. It's the stuff the official docs l
 ```bash
 brew install hugo
 git clone https://github.com/detailobsessed/awesome-devin.git
-cd awesome-windsurf
+cd awesome-devin
 hugo server
 ```
 
