@@ -152,9 +152,13 @@ Site is available at `http://localhost:1313/awesome-devin/`.
 | Branch | Purpose | Status |
 |---|---|---|
 | `main` | Old Windsurf README-based site | Frozen, will be replaced when the rework merges |
-| `v2/hugo-hextra` | Active rework — Hugo + Hextra, all 3 Devin surfaces | In development |
-| `rework/zensical` | Parallel experiment — same content on Zensical | Evaluation only |
-| `rebrand/devin-desktop` | First rebrand attempt — Astro Starlight, Desktop only | Abandoned, kept as reference |
+| `v2/hugo-hextra` | Active rework — Hugo + Hextra, all 3 Devin surfaces | In development, pushed to origin |
+| `rework/zensical` | Parallel experiment — same content on Zensical | Local-only fallback, kept for reference |
+
+All other branches (the abandoned Astro Starlight rebrand, pre-Astro experiments,
+stale dependabot checkouts) were deleted in the July 2026 cleanup. The remaining
+`origin/dependabot/*` branches belong to open PRs and will disappear when those
+PRs are closed during post-merge triage.
 
 ## Open decisions
 
