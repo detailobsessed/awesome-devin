@@ -68,6 +68,7 @@ params:
 
   # Hextra theme params
   theme:
+    default: light
     backToTop:
       display: true
 
