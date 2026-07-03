@@ -1,0 +1,42 @@
+# prek configuration — https://prek.j178.dev/
+# Fast, Rust-native pre-commit hooks for this Hugo site.
+# Run manually:  prek run --all-files
+
+# Never touch generated output or the module cache
+exclude = { glob = ["public/**", "resources/**"] }
+
+# prek's built-in hooks: no network, no environments, instant execution
+[[repos]]
+repo = "builtin"
+hooks = [
+  # preserve Markdown hard line breaks (two trailing spaces)
+  { id = "trailing-whitespace", args = ["--markdown-linebreak-ext=md"] },
+  { id = "end-of-file-fixer" },
+  { id = "mixed-line-ending", args = ["--fix=lf"] },
+  { id = "check-yaml" },
+  { id = "check-toml" },
+  { id = "check-json" },
+  { id = "check-merge-conflict" },
+  { id = "check-case-conflict" },
+  { id = "check-added-large-files", args = ["--maxkb=512"] },
+  { id = "detect-private-key" },
+  { id = "check-vcs-permalinks" },
+]
+
+# Spell checking (Rust, fast) — catches typos in content and config
+[[repos]]
+repo = "https://github.com/crate-ci/typos"
+rev = "v1.48.0"
+hooks = [{ id = "typos" }]
+
+# Local hooks
+[[repos]]
+repo = "local"
+
+[[repos.hooks]]
+id = "hugo-build"
+name = "hugo build (site must compile)"
+entry = "hugo --gc --quiet --destination /tmp/prek-hugo-build"
+language = "system"
+pass_filenames = false
+files = { glob = ["content/**", "assets/**", "i18n/**", "layouts/**", "hugo.yaml", "go.mod", "go.sum"] }

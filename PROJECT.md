@@ -34,7 +34,7 @@ The aesthetic reference is [pydevtools.com](https://pydevtools.com/) — a calm,
 
 Other options were considered and rejected:
 - **Astro Starlight** (the `rebrand/devin-desktop` branch): polished but imposes a "SaaS product docs" aesthetic that's hard to override without fighting the framework.
-- **Zensible** (v0.0.46, by the Material for MkDocs team): credible foundation with real adopters, but still alpha software with breaking changes between 0.0.x releases. Kept as a parallel experiment for future evaluation.
+- **Zensical** (v0.0.46, by the Material for MkDocs team): credible foundation with real adopters, but still alpha software with breaking changes between 0.0.x releases. Kept as a parallel experiment for future evaluation.
 - **Astro-native Hextra-style themes** (astro-docs, astro-pigment): all pre-1.0, single-maintainer, no track record. Too risky for long-lived infrastructure.
 - **Custom Astro + Tailwind**: would have worked but means building and maintaining layout plumbing from scratch with no payoff over Hextra.
 
@@ -165,4 +165,4 @@ PRs are closed during post-merge triage.
 - **Repo rename**: done (`awesome-windsurf` → `awesome-devin`). GitHub redirects old URLs.
 - **Base path**: currently `/awesome-devin/` for GitHub Pages. Will need updating if we move to a custom domain.
 - **Deploy workflow**: the old `.github/workflows/deploy.yml` targets Astro. Needs a new Hugo-based workflow.
-- **Zensible vs Hugo+Hextra**: Hugo+Hextra is the active branch. Zensible is kept as a fallback if Hextra proves insufficient. The markdown content is portable between them.
+- **Zensical vs Hugo+Hextra**: Hugo+Hextra is the active branch. Zensical is kept as a fallback if Hextra proves insufficient. The markdown content is portable between them.
