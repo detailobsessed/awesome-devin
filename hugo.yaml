@@ -22,33 +22,12 @@ markup:
 
 menu:
   main:
-    - name: Tips
-      pageRef: /tips
-      weight: 1
-    - name: Gotchas
-      pageRef: /gotchas
-      weight: 2
-    - name: FAQ
-      pageRef: /faq
-      weight: 3
-    - name: Rules
-      pageRef: /rules
-      weight: 4
-    - name: MCP
-      pageRef: /mcp
-      weight: 5
-    - name: Tools
-      pageRef: /tools
-      weight: 6
-    - name: Contributing
-      pageRef: /contributing
-      weight: 7
     - name: Search
-      weight: 8
+      weight: 1
       params:
         type: search
     - name: GitHub
-      weight: 9
+      weight: 2
       url: "https://github.com/detailobsessed/awesome-devin"
       params:
         icon: github
