@@ -1,8 +1,8 @@
 # Hugo configuration file
 title: Awesome Devin
 
-# GitHub Pages base path — will be updated when repo is renamed
-baseURL: https://detailobsessed.github.io/awesome-windsurf/
+# GitHub Pages base path
+baseURL: https://detailobsessed.github.io/awesome-devin/
 locale: en-us
 
 # import hextra as module
@@ -49,7 +49,7 @@ menu:
         type: search
     - name: GitHub
       weight: 9
-      url: "https://github.com/detailobsessed/awesome-windsurf"
+      url: "https://github.com/detailobsessed/awesome-devin"
       params:
         icon: github
 
@@ -64,7 +64,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/detailobsessed/awesome-windsurf/edit/main/content"
+    base: "https://github.com/detailobsessed/awesome-devin/edit/main/content"
 
   # Hextra theme params
   theme:

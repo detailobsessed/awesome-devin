@@ -38,12 +38,12 @@ changes, and open a pull request. No local setup required.
 brew install hugo
 
 # Clone and serve
-git clone https://github.com/detailobsessed/awesome-windsurf.git
-cd awesome-windsurf
+git clone https://github.com/detailobsessed/awesome-devin.git
+cd awesome-devin
 hugo server
 ```
 
-The site will be available at `http://localhost:1313/awesome-windsurf/`.
+The site will be available at `http://localhost:1313/awesome-devin/`.
 
 ## Guidelines
 

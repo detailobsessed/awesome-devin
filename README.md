@@ -6,22 +6,22 @@ This is not an official Cognition repository. It's the stuff the official docs l
 
 ## Live site
 
-**https://detailobsessed.github.io/awesome-windsurf/**
+**https://detailobsessed.github.io/awesome-devin/**
 
 ## Run locally
 
 ```bash
 brew install hugo
-git clone https://github.com/detailobsessed/awesome-windsurf.git
+git clone https://github.com/detailobsessed/awesome-devin.git
 cd awesome-windsurf
 hugo server
 ```
 
-The site will be available at `http://localhost:1313/awesome-windsurf/`.
+The site will be available at `http://localhost:1313/awesome-devin/`.
 
 ## Contributing
 
-Every page has an "Edit this page" link. Click it, make your changes, and open a PR. See the [Contributing guide](https://detailobsessed.github.io/awesome-windsurf/contributing/) for details.
+Every page has an "Edit this page" link. Click it, make your changes, and open a PR. See the [Contributing guide](https://detailobsessed.github.io/awesome-devin/contributing/) for details.
 
 ## License
 
