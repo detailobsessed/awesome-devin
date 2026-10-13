@@ -21,7 +21,9 @@ servers are actually worth using, their exact config, and their real limitations
 
 {{< cards cols="2" >}}
   {{< card link="bgpt-scientific-search" title="BGPT — Scientific paper search" subtitle="Hosted MCP server for searching scientific papers with full-text data extraction." icon="search" >}}
+  {{< card link="playwright" title="Playwright — browser automation" subtitle="Microsoft's official MCP server for driving a real browser." icon="globe" >}}
+  {{< card link="fetch" title="Fetch — read pages as markdown" subtitle="The reference MCP server for pulling a URL as clean markdown." icon="document-text" >}}
 {{< /cards >}}
 
-> This section is being built out. See [Contributing](../contributing) for how to
-> submit an MCP server.
+Know a server worth listing? See [Contributing](../contributing) for how to
+submit one.

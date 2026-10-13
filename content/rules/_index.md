@@ -21,7 +21,8 @@ people use, why they wrote them, and what the tradeoffs are.
 
 {{< cards cols="2" >}}
   {{< card link="moyu-anti-overengineering" title="Moyu anti-overengineering rules" subtitle="Three iron rules: only change what was asked, simplest solution first, ask when unsure." icon="shield-check" >}}
+  {{< card link="verify-before-done" title="Verify-before-done rules" subtitle="Never claim done without running the checks — evidence, not adjectives." icon="check-circle" >}}
 {{< /cards >}}
 
-> This section is being built out. See [Contributing](../contributing) for how to
-> submit your own rules.
+Have rules worth sharing? See [Contributing](../contributing) for how to submit
+your own.

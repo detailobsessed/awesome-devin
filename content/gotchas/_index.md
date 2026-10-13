@@ -29,6 +29,3 @@ trashing Devin — it's about being honest so people know what to watch for.
   imports when refactoring files over 500 lines, here's the pattern I see and
   what I do about it" is
 - Things that are documented behavior (that's not a gotcha, that's the docs)
-
-> These pages are being built out. See [Contributing](../contributing) for how to
-> add what you've learned.

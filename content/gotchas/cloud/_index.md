@@ -4,7 +4,5 @@ description: Known gotchas and caveats for Devin Cloud.
 weight: 1
 ---
 
-Gotchas specific to Devin Cloud — the hosted, browser-based experience.
-
-> This section is being built out. See [Contributing](../../contributing) for how
-> to add what you've learned.
+Gotchas specific to Devin Cloud — the hosted, browser-based experience where
+sessions run on their own VMs.

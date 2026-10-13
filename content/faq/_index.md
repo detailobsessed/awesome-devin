@@ -15,7 +15,11 @@ what people ask *despite* the docs.
 
 {{< cards cols="2" >}}
   {{< card link="windsurf-to-devin" title="Windsurf → Devin migration" subtitle="What changed, what to do with your existing setup." icon="arrow-right" >}}
+  {{< card link="which-surface" title="Cloud, Desktop, or CLI?" subtitle="Which Devin surface to use for what." icon="view-grid" >}}
+  {{< card link="is-this-official" title="Is this site official?" subtitle="Short answer: no — and where the official docs live." icon="question-mark-circle" >}}
+  {{< card link="where-to-get-help" title="Where do I get help?" subtitle="Discord, docs, and official support — which to use when." icon="chat" >}}
+  {{< card link="what-are-acus" title="What are ACUs?" subtitle="How Devin billing works, in community terms." icon="credit-card" >}}
 {{< /cards >}}
 
-> This section is being built out. See [Contributing](../contributing) for how
-> to suggest FAQ entries.
+Have a question that belongs here? See [Contributing](../contributing) for how
+to suggest FAQ entries.
