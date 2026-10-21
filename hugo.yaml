@@ -1,0 +1,78 @@
+# Hugo configuration file
+title: Awesome Devin
+
+# GitHub Pages base path
+baseURL: https://detailobsessed.github.io/awesome-devin/
+locale: en-us
+
+# Parse git commits for last-modified dates
+enableGitInfo: true
+
+# Generate llms.txt at the site root for AI agents
+outputs:
+  home: [html, llms]
+
+# import hextra as module
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Search
+      weight: 1
+      params:
+        type: search
+    - name: GitHub
+      weight: 2
+      url: "https://github.com/detailobsessed/awesome-devin"
+      params:
+        icon: github
+
+params:
+  description: >-
+    A community-driven hub of tips, workflows, and resources for Devin —
+    Cognition's AI software engineer — across Cloud, Desktop, and CLI.
+    The stuff the official docs don't cover.
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: true
+    base: "https://github.com/detailobsessed/awesome-devin/edit/main/content"
+
+  # Display the last-modified date on pages (from git history)
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  # Hextra theme params
+  theme:
+    default: light
+    backToTop:
+      display: true
+
+    search:
+      enable: true
+      type: flexsearch
+      flexsearch:
+        index: content
+
+    blog:
+      list:
+        displayTags: true

@@ -1,11 +1,20 @@
 # Auto-update dependencies with dependabot
 version: 2
 updates:
-  - package-ecosystem: 'npm'
+  - package-ecosystem: 'gomod'
     directory: '/'
     schedule:
       interval: 'weekly'
-    open-pull-requests-limit: 10
+    labels:
+      - 'dependencies'
+    commit-message:
+      prefix: 'update'
+      include: 'scope'
+
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
     labels:
       - 'dependencies'
     commit-message:

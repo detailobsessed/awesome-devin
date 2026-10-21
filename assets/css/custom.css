@@ -1,0 +1,6 @@
+/* Add bottom margin to the homepage title to separate it from content below.
+   Hextra's home.html renders the h1 with only top margin (hx:mt-2 = 8px)
+   and no bottom margin, causing the title to sit flush against the content. */
+#content > h1 {
+  margin-bottom: 1.5rem;
+}
