@@ -29,5 +29,5 @@ docs don't cover.
   the actual result
 - Hypotheticals — only share what you've actually done
 
-> These pages are being built out. See [Contributing](../contributing) for how to
-> add your tips.
+Have a tip worth adding? See [Contributing](../contributing) for how to submit
+one.

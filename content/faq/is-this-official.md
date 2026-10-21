@@ -21,7 +21,7 @@ is CC0 (public domain) — take it, remix it, contribute back if you can.
 ## Common follow-ups
 
 **Then why trust it?** Fair question. The bar we hold content to is on the
-[Contributing page](../contributing/) — real situations, honest limitations,
+[Contributing page]({{< ref "contributing" >}}) — real situations, honest limitations,
 and a strict "link, don't duplicate" rule for anything the official docs cover.
 
 ## Source

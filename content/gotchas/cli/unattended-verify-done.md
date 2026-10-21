@@ -37,6 +37,6 @@ unverifiable claim into an honest admission instead of a silent skip.
 
 This isn't unique to Devin — it's the failure mode of every autonomous coding
 agent, and it's the CLI counterpart of the Cloud tip on
-[verifiable done criteria](../../tips/cloud/verifiable-done/). Interactive CLI
+[verifiable done criteria]({{< ref "tips/cloud/verifiable-done" >}}). Interactive CLI
 sessions self-correct because you're watching; unattended runs need the bar
 stated in the prompt.
