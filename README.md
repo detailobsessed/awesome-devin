@@ -50,6 +50,7 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
+- [Desk Studio](https://github.com/adityareddy-dev/deskstudio) - Design skills for Windsurf, with a local dashboard and a CLI runner for social cards.
 
 ## Community Prompts
 
