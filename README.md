@@ -50,6 +50,7 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
+- [deja-vu](https://github.com/vshulcz/deja-vu) - Cross-agent session memory & search for Windsurf (Cascade), Cursor, Claude Code, and 43 coding agents (`brew install deja-vu && deja install`)
 
 ## Community Prompts
 
