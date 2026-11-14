@@ -48,6 +48,7 @@ Join our community on [Discord](https://discord.gg/3XFf78nAx5) (badge above) or 
 
 ## Community Resources
 
+- [Agent Nexus](https://github.com/Strategiumfinancepartner/AgentNexus) - Live discovery registry and operational health observability for 730+ remote MCP servers and APIs.
 - [windsurfrules by kinopeee](https://github.com/kinopeee/windsurfrules)
 - [windsurfrules_by_kamusis](https://github.com/kamusis/windsurf_memories)
 
