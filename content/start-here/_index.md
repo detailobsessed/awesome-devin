@@ -1,7 +1,7 @@
 ---
 title: Start here
 description: A map of Devin's surfaces and building blocks, with links to the official docs.
-weight: 0
+weight: -1
 ---
 
 New to Devin? Start by choosing where the work should run, then add only the
