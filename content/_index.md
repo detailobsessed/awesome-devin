@@ -13,6 +13,7 @@ A community-driven hub of tips, workflows, and resources for **Devin** — Cogni
 Devin runs across three surfaces, and this site covers them all:
 
 {{< cards cols="2" >}}
+  {{< card link="start-here" title="Start here" subtitle="A map of Devin's surfaces and building blocks, with links to the official docs." icon="map" >}}
   {{< card link="faq" title="FAQ" subtitle="Answers to questions people actually ask, sourced from the community." icon="chat" >}}
   {{< card link="tips" title="Tips & Workflows" subtitle="Practical patterns the official docs don't cover." icon="lightning-bolt" >}}
   {{< card link="gotchas" title="Gotchas" subtitle="Where Devin surprises you, and how to work around it." icon="exclamation-circle" >}}

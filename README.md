@@ -21,7 +21,7 @@ The site will be available at `http://localhost:1313/awesome-devin/`.
 
 ## Contributing
 
-Every page has an "Edit this page" link. Click it, make your changes, and open a PR. See the [Contributing guide](https://detailobsessed.github.io/awesome-devin/contributing/) for details.
+Public contributions are not yet being accepted while the maintainer establishes the foundation. Open an issue to discuss an idea; please wait to submit a PR until contributions open. See the [Contributing guide](https://detailobsessed.github.io/awesome-devin/contributing/) for the current status and quality standards.
 
 ## License
 

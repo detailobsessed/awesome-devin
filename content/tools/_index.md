@@ -12,7 +12,7 @@ installation steps, and an honest assessment of when you'd use it.
 
 ## Entries
 
-_No entries yet._
-
-> This section is being built out. See [Contributing](../contributing) for how to
-> submit a tool.
+- [DeepWiki & its MCP server](deepwiki): explore an unfamiliar public dependency before changing code.
+- [Devin CLI](devin-cli): work from a terminal in your local checkout.
+- [Agent Skills](agent-skills): package a repeatable procedure rather than grow an always-on rules file.
+- [AGENTS.md](agents-md): keep a short, version-controlled starting point for coding agents.

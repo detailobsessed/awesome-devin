@@ -6,9 +6,9 @@ weight: 4
 
 Depends what kind of help you need:
 
-- **Community help** — the community Discord is the fastest place for "how do
-  you do X?", "is this normal?", and "has anyone seen this?" questions. The
-  invite link is in the repo's README.
+- **Community help** — join the [Devin community Discord](https://discord.gg/3XFf78nAx5)
+  for "how do you do X?", "is this normal?", and "has anyone seen this?"
+  questions.
 - **Official documentation** — [docs.devin.ai](https://docs.devin.ai) covers
   how Devin is supposed to work across all surfaces.
 - **Official support** — the Help (?) icon at the bottom of the sidebar in
@@ -20,7 +20,7 @@ Depends what kind of help you need:
 
 ## Common follow-ups
 
-**Can I get help with this site?** Open an issue or PR on
+**Can I get help with this site?** Open an issue on
 [the repo](https://github.com/detailobsessed/awesome-devin) — it's maintained
 by volunteers.
 
