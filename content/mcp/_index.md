@@ -10,7 +10,7 @@ config for that server, and an honest description of what it does and doesn't do
 
 **How to configure MCP per surface is official-docs territory, not ours:**
 
-- **Desktop**: [MCP in Cascade](https://docs.devin.ai/desktop/cascade/mcp)
+- **Desktop**: [MCP in Devin Local](https://docs.devin.ai/desktop/devin-local/customizations#mcp-servers)
 - **CLI**: [MCP Configuration](https://docs.devin.ai/cli/extensibility/mcp/configuration)
 - **Cloud**: [MCP Marketplace](https://docs.devin.ai/work-with-devin/mcp)
 
@@ -19,11 +19,7 @@ servers are actually worth using, their exact config, and their real limitations
 
 ## Entries
 
-{{< cards cols="2" >}}
-  {{< card link="bgpt-scientific-search" title="BGPT — Scientific paper search" subtitle="Hosted MCP server for searching scientific papers with full-text data extraction." icon="search" >}}
-  {{< card link="playwright" title="Playwright — browser automation" subtitle="Microsoft's official MCP server for driving a real browser." icon="globe" >}}
-  {{< card link="fetch" title="Fetch — read pages as markdown" subtitle="The reference MCP server for pulling a URL as clean markdown." icon="document-text" >}}
-{{< /cards >}}
+{{< entry-list >}}
 
 Know a server worth listing? See [Contributing](../contributing) for how to
 submit one.

@@ -10,7 +10,7 @@ Copy this template, fill it in, and place it in `content/mcp/`.
 GitHub stars OR 3+ months since first release OR documented production use. You
 can submit your own project, but it must meet this bar like anything else.
 
-```markdown
+````markdown
 ---
 title: <Server name>
 description: <One-line summary of what the server does>
@@ -19,13 +19,11 @@ source: <link to the server's repo>
 weight: <lower = higher in list>
 ---
 
-# <Server name>
-
 <One paragraph: what this MCP server does, objectively. Not marketing copy —
 "searches scientific papers and extracts experimental data" not "revolutionizes
 your research workflow".>
 
-Contributed by [<username>](<link>). Source: [<repo name>](<link>).
+Curated for Awesome Devin. Source: [<source name>](<public source URL>).
 
 ## What it does
 
@@ -41,9 +39,10 @@ JSON/config people need to paste.>
 
 ```json
 {
-  "<server-name>": {
-    "url": "<URL>",
-    "transport": "sse"
+  "mcpServers": {
+    "<server-name>": {
+      "url": "<verified HTTP URL>"
+    }
   }
 }
 ```
@@ -54,8 +53,7 @@ JSON/config people need to paste.>
 {
   "mcpServers": {
     "<server-name>": {
-      "url": "<URL>",
-      "transport": "sse"
+      "url": "<verified HTTP URL>"
     }
   }
 }
@@ -71,7 +69,7 @@ self-hosted availability, etc. Be honest — this section is required.>
 - <N> GitHub stars
 - <N> commits, <active/stale> maintenance
 - <hosted instance available / self-hosted only / etc.>
-```
+````
 
 ## Guidelines
 

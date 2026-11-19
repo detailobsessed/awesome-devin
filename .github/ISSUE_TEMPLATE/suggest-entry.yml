@@ -1,0 +1,35 @@
+name: Suggest an entry
+description: Discuss a resource or idea while contribution PRs are not yet accepted.
+title: "Entry suggestion: "
+body:
+  - type: markdown
+    attributes:
+      value: Public contribution PRs are not yet accepted. Use this form to discuss an idea; please do not include secrets or private code.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Entry type
+      options: [Tip, Gotcha, FAQ, Rules, MCP server, Tool, Skill]
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: What problem does this help with?
+      description: Include the Devin surface and a specific situation, not a sales pitch.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Public sources and evidence
+      description: Link the source. For tools/MCP servers, include maturity evidence. For skills, include the complete public SKILL.md and what you tested.
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations and what you verified
+      description: Say what worked, what did not, and what you have not checked. Disclose if it is your project.
+    validations:
+      required: true

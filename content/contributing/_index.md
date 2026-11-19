@@ -4,9 +4,9 @@ description: How to contribute to Awesome Devin.
 weight: 7
 ---
 
-Awesome Devin is a community project. Every page here was contributed by someone
-who used Devin, hit a wall, figured something out, and took the time to write it
-up.
+Awesome Devin is a community project with maintainer-curated entries and
+community suggestions. Proposed workflows are labeled as such; they are not
+presented as measured field results.
 
 ## Current status: curated, not yet open
 
@@ -16,8 +16,14 @@ contributions are not yet being accepted** — we're building the foundation fir
 getting it right, and will open up to community contributions once the structure
 is stable.
 
-If you have something you'd like to contribute, you're welcome to open an issue
-to discuss it. We'll start accepting PRs once the foundation is solid.
+If you have something you'd like to contribute,
+[open an issue](https://github.com/detailobsessed/awesome-devin/issues/new/choose)
+using **Suggest an entry**. Include the source and evidence there; an issue is
+a discussion, not a promise to list a project. We'll start accepting PRs once
+the foundation is solid.
+
+The site currently lives on `{{< repo-branch >}}`, not the default branch.
+Use that branch for local previews and, when contributions open, as the PR base.
 
 ## The prime directive: link, don't duplicate
 
@@ -92,6 +98,14 @@ need external validation.
 - If the only person who thinks it belongs here is you, it probably doesn't
   belong here yet
 
+### Individual skills
+
+A single `SKILL.md` does not need stars or release history. It needs a public
+source, a specific use case, a complete copyable file, installation instructions,
+and a stated test: what you tried, what happened, and what remains unverified.
+Include limitations and review any bundled scripts. Use the
+[skill template](templates/skill), not the tool-directory maturity bar.
+
 ### What gets rejected
 
 - "Here's my repo, add it to the list" with no context
@@ -113,18 +127,29 @@ a consistent structure:
 5. **Link to source** — so people can verify and contribute upstream
 
 Templates for each content type are available in the
-[repository](https://github.com/detailobsessed/awesome-devin/tree/main/content/contributing/templates).
+{{< repo-link path="content/contributing/templates" text="repository" >}}.
+
+Do not add an H1 inside the body: the theme renders the frontmatter title.
+For directory entries, use a short **Curated for Awesome Devin. Source:** line
+with a public source link, matching the existing entries.
+
+## Submission steps — when contributions open
+
+For now, use the issue form above rather than opening a contribution PR.
+Once contributions open:
+
+1. Fork the repository and create your working branch from the site branch
+   named above, not the default branch.
+2. Copy the relevant template, fill it in, and preview the page locally.
+3. Commit with `type: description`, where type is one of `add`, `update`,
+   `remove`, `fix`, `meta`, or `release`.
+4. Run `prek run --all-files` and fix any failures before submitting.
+5. Push to your fork and open a PR targeting the site branch. Include the
+   checks you ran, source links, and any limitations reviewers should know.
 
 ## How to run the site locally
 
-```bash
-brew install hugo
-git clone https://github.com/detailobsessed/awesome-devin.git
-cd awesome-devin
-hugo server
-```
-
-The site will be available at `http://localhost:1313/awesome-devin/`.
+{{< local-setup >}}
 
 ## License
 

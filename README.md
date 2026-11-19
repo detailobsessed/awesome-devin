@@ -4,15 +4,22 @@ A community-driven hub of tips, workflows, and resources for [Devin](https://doc
 
 This is not an official Cognition repository. It's the stuff the official docs leave out — practical tips, honest gotchas, curated rules, and a directory of MCP servers and tools.
 
-## Live site
+## Site status
 
-**https://detailobsessed.github.io/awesome-devin/**
+The rebuilt site is not published yet. Preview it locally while the rebuild is under review.
 
 ## Run locally
 
+Use the site branch rather than the default branch.
+Install [Hugo extended](https://gohugo.io/installation/) 0.163.3 or newer and
+[Go](https://go.dev/doc/install) 1.26 or newer (needed for the Hextra module).
+Those official installation pages cover macOS, Linux, and Windows. This revision
+was checked with Hugo extended 0.170.1 and Go 1.27.4.
+
+Clone the site branch:
+
 ```bash
-brew install hugo
-git clone https://github.com/detailobsessed/awesome-devin.git
+git clone -b v2/hugo-hextra https://github.com/detailobsessed/awesome-devin.git
 cd awesome-devin
 hugo server
 ```
@@ -21,7 +28,11 @@ The site will be available at `http://localhost:1313/awesome-devin/`.
 
 ## Contributing
 
-Every page has an "Edit this page" link. Click it, make your changes, and open a PR. See the [Contributing guide](https://detailobsessed.github.io/awesome-devin/contributing/) for details.
+Public contributions are not yet being accepted while the maintainer establishes the foundation.
+[Open an issue](https://github.com/detailobsessed/awesome-devin/issues/new/choose) to discuss an idea;
+please wait to submit a PR until contributions open. Read `content/contributing/_index.md`
+on the site branch for the quality standards, templates, and future submission steps.
+Install [prek](https://prek.j178.dev/installation/) and run `prek run --all-files` before submitting changes.
 
 ## License
 

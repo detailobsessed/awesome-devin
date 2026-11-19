@@ -7,7 +7,7 @@ weight: 1
 Copy this template, fill it in, and place it in the appropriate surface directory
 under `content/tips/`.
 
-```markdown
+````markdown
 ---
 title: <Short, descriptive title>
 description: <One-line summary for search and social>
@@ -15,8 +15,6 @@ author: <your GitHub username>
 surface: cloud | desktop | cli
 weight: <lower = higher in list>
 ---
-
-# <Title>
 
 <One paragraph: what's the tip, and when would you use it? Be specific about the
 situation that triggers it.>
@@ -43,7 +41,7 @@ alternative.>
 ## Variations
 
 <Optional: how this adapts to different situations.>
-```
+````
 
 ## Guidelines
 

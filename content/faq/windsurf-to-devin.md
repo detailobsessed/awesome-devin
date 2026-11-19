@@ -1,7 +1,7 @@
 ---
 title: Windsurf → Devin migration
 description: Where to find the official migration FAQ, and community notes the docs don't cover.
-weight: 1
+weight: 99
 ---
 
 **Short answer:** On June 2, 2026, Windsurf became Devin Desktop and Cascade

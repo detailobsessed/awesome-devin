@@ -1,16 +1,18 @@
 ---
 title: Tool entry template
-description: Template for contributing a skill or tool to the directory.
+description: Template for contributing a mature tool to the directory.
 weight: 6
 ---
 
 Copy this template, fill it in, and place it in `content/tools/`.
 
+For an individual `SKILL.md`, use the [skill template](../skill) instead.
+
 **Maturity bar:** Tool entries must have community validation — 50+ GitHub
 stars OR 3+ months since first release OR documented production use. You can
 submit your own project, but it must meet this bar like anything else.
 
-```markdown
+````markdown
 ---
 title: <Tool name>
 description: <One-line summary of what the tool does>
@@ -19,12 +21,10 @@ source: <link to the tool's repo>
 weight: <lower = higher in list>
 ---
 
-# <Tool name>
-
 <One paragraph: what this tool does, objectively. What problem does it solve for
 Devin users?>
 
-Contributed by [<username>](<link>). Source: [<repo name>](<link>).
+Curated for Awesome Devin. Source: [<source name>](<public source URL>).
 
 ## What it does
 
@@ -55,7 +55,7 @@ etc. Be honest — this section is required.>
 - <N> GitHub stars
 - <N> commits, <active/stale> maintenance
 - <any other validation>
-```
+````
 
 ## Guidelines
 

@@ -12,7 +12,4 @@ installation steps, and an honest assessment of when you'd use it.
 
 ## Entries
 
-_No entries yet._
-
-> This section is being built out. See [Contributing](../contributing) for how to
-> submit a tool.
+{{< entry-list >}}

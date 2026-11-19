@@ -1,0 +1,2 @@
+{{- $accessibility := resources.Get "js/accessibility.js" | minify | fingerprint -}}
+<script src="{{ $accessibility.RelPermalink }}" defer></script>

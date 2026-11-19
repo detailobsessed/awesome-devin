@@ -1,35 +1,43 @@
 ---
 title: What are ACUs, and how does billing work?
-description: ACUs (Agent Compute Units) are the metered unit for Devin Cloud usage — the community summary, with links to official pricing.
+description: Find current pricing, plan-specific billing, and the usage evidence needed for a team budget.
 weight: 5
 ---
 
-**ACU** stands for **Agent Compute Unit** — the unit Devin Cloud work is
-metered in. Heavier sessions (more compute, longer runs) consume more ACUs.
+**ACU** stands for **Agent Compute Unit**. Start with the official
+[billing guide](https://docs.devin.ai/admin/billing) to identify the billing
+model that applies to your account; do not assume every plan uses ACUs.
 
-A few things worth knowing:
+## Use the right pricing reference
 
-- **Devin Desktop ≠ Devin Cloud billing.** Per the official
-  [Desktop FAQ](https://docs.devin.ai/desktop/devin-desktop-faq), existing
-  Windsurf plans keep working unchanged — Desktop on its own doesn't require
-  switching to ACU billing.
-- **Full seats include usage.** On the Teams plan, a full seat unlocks Desktop
-  plus a monthly usage allowance that works across Cloud, Desktop, CLI, and
-  Review.
-- **Costs track session weight.** Small, well-scoped tasks stay cheap; long
-  unattended runs and heavy investigation cost more.
+- [Devin pricing](https://devin.ai/pricing) is the public plan comparison.
+- [Self-serve billing](https://docs.devin.ai/admin/billing/self-serve) explains
+  included quota and on-demand credits.
+- [Enterprise billing](https://docs.devin.ai/admin/billing/enterprise) explains
+  contracted ACUs, tracking, and limits; use your order form for your actual rate.
 
-For current numbers — plans, included usage, overage — always go to the
-official pricing page at [cognition.ai](https://cognition.ai) or the billing
-section of [docs.devin.ai](https://docs.devin.ai). Pricing changes often
-enough that we won't restate figures here.
+We do not copy prices or convert task duration into a cost estimate here.
+Check the current terms for your account before approving a budget.
 
-## Common follow-ups
+## Budget from a representative pilot
 
-**How do I keep usage down?** The highest-leverage habit is well-scoped,
-verifiable prompts — sessions that wander are sessions that burn ACUs.
+1. Pick the task types you expect to repeat, not just the easiest demo. Keep
+   their scope and acceptance checks explicit.
+2. Record actual per-session usage using the locations documented in
+   [Usage](https://docs.devin.ai/admin/billing/usage), alongside review effort,
+   rework, and failed attempts. A PR count alone misses those costs.
+3. Use that evidence to decide which task types are worth repeating. Include
+   the expected workload and your account's current terms in the budget rather
+   than assuming equal cost per task.
+4. Have the account owner check applicable limits before widening access. For
+   Enterprise controls, see [Budgets](https://docs.devin.ai/admin/billing/budgets);
+   do not assume those controls exist on every plan.
 
-## Source
+For scope, stop criteria, and rollout decisions, use the
+[team pilot checklist](../../tips/cloud/team-pilot).
 
-Regular billing confusion in Discord, especially from people migrating off
-legacy Windsurf plans.
+## How do I keep usage down?
+
+Use the official [usage guidance](https://docs.devin.ai/admin/billing/usage)
+to understand what is metered. Keep each request focused and verifiable, and
+investigate environment or scope problems before repeating an unsuccessful run.

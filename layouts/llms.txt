@@ -1,0 +1,12 @@
+# {{ .Site.Title | plainify | htmlUnescape }}
+
+> {{ .Site.Params.description | plainify | htmlUnescape }}
+
+{{ range where site.Sections.ByWeight "Params.llms" "ne" false }}
+## {{ .Title | plainify | htmlUnescape }}
+{{ $pages := .RegularPagesRecursive.ByWeight }}
+{{ if not $pages }}{{ $pages = slice . }}{{ end }}
+{{ range where $pages "Params.llms" "ne" false }}
+- [{{ .Title | plainify | htmlUnescape }}]({{ .Permalink }}): {{ (.Description | default .Summary) | plainify | htmlUnescape | truncate 180 | strings.TrimSpace }}
+{{ end }}
+{{ end }}

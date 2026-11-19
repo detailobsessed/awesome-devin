@@ -5,17 +5,16 @@ weight: 3
 ---
 
 FAQ entries are curated by the maintainer, sourced from Discord and community
-conversations. If you have a question that belongs here, open an issue with the
+conversations. If you have a question that belongs here,
+[open an issue](https://github.com/detailobsessed/awesome-devin/issues/new/choose) with the
 question and (if you can) the answer.
 
-```markdown
+````markdown
 ---
 title: <The question, as people actually ask it>
 description: <Short summary of the answer>
 weight: <lower = higher in list>
 ---
-
-# <Question>
 
 <Direct answer. No preamble, no "great question" — just the answer.>
 
@@ -30,7 +29,7 @@ multiple parts.>
 
 <Where this question came from — Discord thread link, forum post, etc. Helps
 others verify the context.>
-```
+````
 
 ## Guidelines
 

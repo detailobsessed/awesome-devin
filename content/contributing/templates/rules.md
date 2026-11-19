@@ -7,7 +7,7 @@ weight: 4
 Copy this template, fill it in, and place it in `content/rules/`. The full rules
 text must be inline — not just a link to your repo.
 
-```markdown
+````markdown
 ---
 title: <Short name for the rules set>
 description: <One-line summary of what the rules do>
@@ -16,12 +16,10 @@ source: <link to your repo, if applicable>
 weight: <lower = higher in list>
 ---
 
-# <Title>
-
 <One paragraph: what these rules do, and what problem they solve. Be objective —
 "prevents over-engineering" not "the best rules ever".>
 
-Contributed by [<username>](<link>). Source: [<repo name>](<link>).
+Curated for Awesome Devin. Source: [<source name>](<public source URL>).
 
 ## The rules
 
@@ -33,17 +31,9 @@ be able to read and evaluate the rules without clicking away.>
 <Actual commands or config snippets for installing the rules into each Devin
 surface. Not "see the docs" — the actual steps.>
 
-```bash
-# Desktop (global)
-cat > ~/.config/devin/rules/<name>.md << 'RULES'
-# Paste rules here
-RULES
-
-# Desktop (workspace)
-cat > .devin/rules/<name>.md << 'RULES'
-# Paste rules here
-RULES
-```
+<Name the surface and exact file path you verified. Include any required
+frontmatter. Link its current official loading rules; do not assume paths
+or trigger syntax are identical across surfaces.>
 
 ## Why this exists
 
@@ -54,7 +44,7 @@ that prompted you to add them?>
 
 <What these rules don't do. When they might not be appropriate. Be honest —
 this helps people decide if they're a good fit.>
-```
+````
 
 ## Guidelines
 

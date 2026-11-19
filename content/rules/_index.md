@@ -9,7 +9,7 @@ setup.
 
 **How rules work per surface is official-docs territory, not ours:**
 
-- **Desktop**: [Memories & Rules](https://docs.devin.ai/desktop/cascade/memories)
+- **Desktop**: [Rules in Devin Local](https://docs.devin.ai/desktop/devin-local/customizations#rules)
 - **CLI**: [Rules & AGENTS.md](https://docs.devin.ai/cli/extensibility/rules)
 - **Cloud**: [Knowledge](https://docs.devin.ai/product-guides/knowledge) and
   [Playbooks](https://docs.devin.ai/product-guides/creating-playbooks)
@@ -19,10 +19,7 @@ people use, why they wrote them, and what the tradeoffs are.
 
 ## Entries
 
-{{< cards cols="2" >}}
-  {{< card link="moyu-anti-overengineering" title="Moyu anti-overengineering rules" subtitle="Three iron rules: only change what was asked, simplest solution first, ask when unsure." icon="shield-check" >}}
-  {{< card link="verify-before-done" title="Verify-before-done rules" subtitle="Never claim done without running the checks — evidence, not adjectives." icon="check-circle" >}}
-{{< /cards >}}
+{{< entry-list >}}
 
 Have rules worth sharing? See [Contributing](../contributing) for how to submit
 your own.
