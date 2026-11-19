@@ -1,0 +1,10 @@
+{{- $pages := .Page.RegularPagesRecursive.ByWeight -}}
+{{- with $pages -}}
+<ul>
+  {{- range . }}
+  <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ with .Description }} — {{ . }}{{ end }}</li>
+  {{- end }}
+</ul>
+{{- else -}}
+<p>No entries yet.</p>
+{{- end -}}

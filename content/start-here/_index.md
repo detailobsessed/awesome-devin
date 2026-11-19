@@ -8,6 +8,32 @@ New to Devin? Start by choosing where the work should run, then add only the
 building blocks your task needs. This is a map, not a second manual: the linked
 official docs own the setup steps and current product behavior.
 
+## Choose work you can verify
+
+Devin is a coding agent: it can investigate code, make changes, run checks, and
+prepare PRs. Start with work that has clear success criteria, relevant examples,
+and a testable outcome; see [When to use Devin](https://docs.devin.ai/essential-guidelines/when-to-use-devin).
+Vague goals and large, unsplit requests are poor starting points. Do not treat
+it as an unattended authority on correctness or security: the
+[security guide](https://docs.devin.ai/admin/security) warns about bugs,
+hallucinations, and insecure suggestions.
+
+## Your first task: a small bug fix
+
+1. Pick a reproducible bug in a repository you are allowed to connect. Write
+   down the current behavior, expected behavior, and a check that distinguishes them.
+2. Complete [repository setup](https://docs.devin.ai/onboard-devin/environment)
+   and check [data-handling requirements](../faq/security-and-data) before granting access.
+3. Follow [Your first session](https://docs.devin.ai/get-started/first-run):
+   use Ask to locate the relevant code and agree a plan before starting implementation.
+4. Give Agent a bounded brief: fix that bug, add a regression test, run the
+   relevant checks, report their actual output, and open a PR without merging it.
+5. Review the diff and evidence against the original bug. If the result is
+   incomplete, narrow the next request rather than adding unrelated work.
+
+Trying this as a team? Use the [pilot checklist](../tips/cloud/team-pilot) and
+[PR review checklist](../tips/cloud/review-devin-prs) before widening the rollout.
+
 ## Three surfaces
 
 - **Cloud** — delegate work to a remote agent rather than run it in your local
@@ -21,10 +47,12 @@ official docs own the setup steps and current product behavior.
 
 - **Sessions** — a unit of work you can give a goal and follow as it runs.
   Try [your first session](https://docs.devin.ai/get-started/first-run) before building a larger workflow.
-- **Knowledge** — reusable organizational context and advice, rather than a
-  fresh explanation in every prompt. See [Knowledge onboarding](https://docs.devin.ai/onboard-devin/knowledge-onboarding).
-- **Playbooks** — reusable prompts for tasks you want to start again with a
-  familiar brief. See [Using playbooks](https://docs.devin.ai/product-guides/using-playbooks).
+- **Knowledge** — the legacy context feature, now deprecated in favor of skills
+  in plugins. See [Knowledge onboarding](https://docs.devin.ai/onboard-devin/knowledge-onboarding)
+  and the [inherited-knowledge checklist](../tips/cloud/knowledge-migration).
+- **Playbooks** — reusable prompts being moved to skills; new accounts may not
+  have them. See [Using playbooks](https://docs.devin.ai/product-guides/using-playbooks)
+  and [preserving a playbook's guardrails](../tips/cloud/playbook-to-skill).
 - **Skills** — procedures loaded when relevant; a better home for a long
   checklist than an always-on instruction file. See [Devin Skills](https://docs.devin.ai/product-guides/skills)
   and our [small repository example](../tools/agent-skills).

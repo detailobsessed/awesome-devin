@@ -6,3 +6,5 @@ weight: 2
 
 Tips for Devin Desktop — the local IDE experience (formerly Windsurf), from
 rules and agents to the Agent Command Center.
+
+{{< entry-list >}}

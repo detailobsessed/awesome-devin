@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Official Devin support
+    url: https://docs.devin.ai/admin/security
+    about: For product security reporting contacts, see the official guide. Do not post vulnerabilities or secrets in public issues.

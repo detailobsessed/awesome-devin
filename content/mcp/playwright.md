@@ -3,7 +3,7 @@ title: Playwright — browser automation
 description: Microsoft's official MCP server for driving a real browser — lets Devin navigate pages, click, fill forms, and read the rendered DOM.
 author: detailobsessed
 source: https://github.com/microsoft/playwright-mcp
-weight: 2
+weight: 1
 ---
 
 Microsoft's official Playwright MCP server. It gives Devin a real browser to
@@ -24,14 +24,17 @@ browser".
 
 ### Devin Desktop
 
-Add to `~/.codeium/windsurf/mcp_config.json`:
+Open **Customize → MCPs → This computer**, then open the config file from
+the server list. For current Devin Local, a shared project config lives at
+`.devin/mcp_config.json`; see [Desktop MCP configuration](https://docs.devin.ai/desktop/devin-local/customizations#mcp-servers).
+Add:
 
 ```json
 {
   "mcpServers": {
     "playwright": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest"]
+      "args": ["-y", "@playwright/mcp@latest"]
     }
   }
 }
@@ -48,13 +51,17 @@ Scope it to all your projects with `-s user`, or share it with a team via
 
 ### Devin Cloud
 
-Playwright MCP is a local stdio server — for cloud sessions, check the
-[MCP Marketplace](https://docs.devin.ai/work-with-devin/mcp) for remote options
-instead; local-only servers can't run on a remote session VM in a useful way.
+In **Customize → MCPs**, select your organization and **Add custom MCP**
+(requires permission to manage organization MCP servers). Choose **STDIO**,
+command `npx`, arguments `-y @playwright/mcp@latest --headless`, and save.
+Use **Use MCP** to test it in a session; **Test tools** is unavailable for STDIO.
+The session environment must provide Node.js and the browser dependencies.
+See the [Cloud setup guide](https://docs.devin.ai/work-with-devin/mcp) for current
+scope and connection controls; do not expose a browser server publicly as a workaround.
 
 ## Limitations
 
-- Requires Node.js (`npx`) available on the machine.
+- Requires Node.js 20 or newer (`npx`) and browser dependencies on the machine.
 - Browser automation is slower and flakier than API-level tools — reach for it
   when you need a real page, not for fetching data an endpoint already gives you.
 - Auth flows still need credentials — the server doesn't magically log in for you.

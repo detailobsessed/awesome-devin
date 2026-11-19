@@ -1,0 +1,8 @@
+<p>Install <a href="https://gohugo.io/installation/">Hugo extended</a> (0.163.3 or newer),
+<a href="https://go.dev/doc/install">Go</a> (1.26 or newer, required for the Hextra module),
+and <a href="https://prek.j178.dev/installation/">prek</a> for the checks.
+The official installation pages cover macOS, Linux, and Windows. This revision
+was checked with Hugo extended 0.170.1 and Go 1.27.4.</p>
+{{- $commands := printf "git clone -b %s https://github.com/detailobsessed/awesome-devin.git\ncd awesome-devin\nhugo server" site.Params.repoBranch -}}
+<div class="hextra-code-block">{{ highlight $commands "bash" }}</div>
+<p>The site will be available at <code>http://localhost:1313/awesome-devin/</code>.</p>

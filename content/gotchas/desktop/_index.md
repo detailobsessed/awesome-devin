@@ -6,3 +6,5 @@ weight: 2
 
 Gotchas specific to Devin Desktop — the local IDE experience (formerly
 Windsurf).
+
+{{< entry-list >}}

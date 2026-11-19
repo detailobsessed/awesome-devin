@@ -5,3 +5,5 @@ weight: 3
 ---
 
 Gotchas specific to the Devin CLI — the terminal-based experience.
+
+{{< entry-list >}}

@@ -16,6 +16,10 @@ trashing Devin — it's about being honest so people know what to watch for.
   {{< card link="cli" title="CLI" subtitle="Gotchas for the terminal experience." icon="terminal" >}}
 {{< /cards >}}
 
+## All gotchas
+
+{{< entry-list >}}
+
 ## What belongs here
 
 - A specific behavior that surprised you, with the context that triggered it

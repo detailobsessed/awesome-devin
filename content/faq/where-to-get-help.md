@@ -21,7 +21,7 @@ Depends what kind of help you need:
 ## Common follow-ups
 
 **Can I get help with this site?** Open an issue on
-[the repo](https://github.com/detailobsessed/awesome-devin) — it's maintained
+[the issue tracker](https://github.com/detailobsessed/awesome-devin/issues/new/choose) — it's maintained
 by volunteers.
 
 ## Source

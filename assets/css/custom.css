@@ -4,3 +4,67 @@
 #content > h1 {
   margin-bottom: 1.5rem;
 }
+
+.hextra-sidebar-container li:not(.open) > .hextra-sidebar-children {
+  visibility: hidden;
+}
+
+@media (max-width: 767px) {
+  .hextra-sidebar-container[aria-hidden="true"] {
+    visibility: hidden;
+  }
+
+  .hextra-sidebar-item:has(> .hextra-sidebar-collapsible-button) {
+    min-height: 44px;
+  }
+
+  .hextra-sidebar-item:has(> .hextra-sidebar-collapsible-button) > a {
+    padding-inline-end: 52px;
+  }
+
+  .hextra-sidebar-collapsible-button {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media (pointer: coarse) {
+  .hextra-sidebar-collapsible-button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+.hextra-code-block pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.hextra-code-block pre,
+.hextra-code-block .chroma,
+.hextra-code-block .chroma span {
+  color: #243247 !important;
+  background-color: #f2f7fc !important;
+}
+
+.dark .hextra-code-block pre,
+.dark .hextra-code-block .chroma,
+.dark .hextra-code-block .chroma span {
+  color: #e2e8f0 !important;
+  background-color: #111827 !important;
+}
+
+.hextra-search-no-result {
+  color: #475569 !important;
+}
+
+.dark .hextra-search-no-result,
+.dark .hextra-search-wrapper kbd {
+  color: #cbd5e1 !important;
+}
+
+.dark .hextra-sidebar-active-item {
+  color: #93c5fd !important;
+}

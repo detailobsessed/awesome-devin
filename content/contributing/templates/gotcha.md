@@ -7,7 +7,7 @@ weight: 2
 Copy this template, fill it in, and place it in the appropriate surface directory
 under `content/gotchas/`.
 
-```markdown
+````markdown
 ---
 title: <Short, descriptive title of the surprising behavior>
 description: <One-line summary for search>
@@ -15,8 +15,6 @@ author: <your GitHub username>
 surface: cloud | desktop | cli
 weight: <lower = higher in list>
 ---
-
-# <Title>
 
 <One paragraph: what's the surprising behavior, in plain language.>
 
@@ -35,7 +33,7 @@ clearly — that's useful information too.>
 
 <Optional: any additional detail — whether this is a known bug, whether it's
 documented behavior, whether it's surface-specific, etc.>
-```
+````
 
 ## Guidelines
 

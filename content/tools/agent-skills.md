@@ -24,7 +24,7 @@ agent loads skills the same way.
 
 Create `.agents/skills/review-test-plan/SKILL.md` in your repository with:
 
-```markdown
+```text
 ---
 name: review-test-plan
 description: Review a proposed code change for missing tests before implementation.
@@ -42,7 +42,9 @@ unrelated skills.
 
 ## When to use it
 
-Use it for repeatable tasks such as a test-planning review. For a single short
+For a complete procedure with missing-context handling, use the
+[review-test-plan skill](../review-test-plan). Use skills for repeatable tasks
+such as a test-planning review. For a single short
 instruction that should apply to all work, [AGENTS.md](../agents-md) is simpler.
 
 ## Limitations

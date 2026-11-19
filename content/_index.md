@@ -10,7 +10,7 @@ cascade:
 
 A community-driven hub of tips, workflows, and resources for **Devin** — Cognition's AI software engineer.
 
-Devin runs across three surfaces, and this site covers them all:
+Find a starting path, practical advice, or a resource to try:
 
 {{< cards cols="2" >}}
   {{< card link="start-here" title="Start here" subtitle="A map of Devin's surfaces and building blocks, with links to the official docs." icon="map" >}}

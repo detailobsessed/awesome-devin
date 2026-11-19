@@ -40,6 +40,8 @@ menu:
         icon: github
 
 params:
+  # Switch to main after PR #349 merges; site repository links derive from this branch.
+  repoBranch: v2/hugo-hextra
   description: >-
     A community-driven hub of tips, workflows, and resources for Devin —
     Cognition's AI software engineer — across Cloud, Desktop, and CLI.
@@ -55,7 +57,6 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/detailobsessed/awesome-devin/edit/main/content"
 
   # Display the last-modified date on pages (from git history)
   displayUpdatedDate: true
