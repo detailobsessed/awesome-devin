@@ -53,7 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
         link.id = `${results.id}-option-${optionIndex++}`;
         link.setAttribute("role", "option");
         const title = link.querySelector(".hextra-search-title")?.textContent.trim();
-        link.setAttribute("aria-label", [page, title].filter(Boolean).join(" — "));
+        const excerpt = link.querySelector(".hextra-search-excerpt")?.textContent.trim();
+        const label = [page, title].filter(Boolean).join(" — ");
+        link.setAttribute("aria-label", [label, excerpt].filter(Boolean).join(": "));
         link.setAttribute("aria-selected", String(link.classList.contains("hextra-search-active")));
       });
       const active = results.querySelector(".hextra-search-active");
